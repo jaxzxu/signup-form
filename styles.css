@@ -1,0 +1,97 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.img{
+  display: flex;
+  width: 50%;
+  height: 95%;
+  margin: 1% 1% 1% 1%;
+  background: url(./josh-carter-rRPmogAAnfI-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.img-description{
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 100%;
+  color: white;
+  font-weight: 900;
+}
+
+a{
+  color: inherit;
+  text-decoration: inherit;
+  text-decoration: underline;
+}
+
+
+label{
+  font-weight: 900;
+  font-size: 20px;
+  display: block;
+}
+
+input {
+  border: 2px solid gray;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.3rem;
+  width: 80%;
+  display: block;
+  padding-right: 10%;
+  margin-bottom: 5%;
+}
+  
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
+
+form{
+  padding-top: 5%;
+  width: 80%;
+  background-color: white;
+}
+
+.form{
+  margin-left: 1%;
+}
+
+
+.form-end{
+  margin-top: 20px;
+  position: absolute;
+  font-size: 11px;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(15, 62, 15);
+  color: white;
+  border-radius: 8px;
+  padding: 3% 5% 3% 5%;
+  border: none;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
